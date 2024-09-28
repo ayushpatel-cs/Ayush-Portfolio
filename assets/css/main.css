@@ -3233,3 +3233,64 @@ input, select, textarea {
 			}
 
 	}
+
+	#experience {
+		padding: 2em 0;
+	}
+	
+	.experience-item {
+		display: flex;
+		margin-bottom: 2em;
+		background-color: #f9f9f9;
+		border-radius: 10px;
+		overflow: hidden;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+	
+	.logo-container {
+		flex: 0 0 150px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #ffffff;
+		padding: 1em;
+	}
+	
+	.company-logo {
+		width: 100px;
+		height: 100px;
+		object-fit:contain;
+	}
+	
+	.experience-content {
+		flex: 1;
+		padding: 1.5em;
+	}
+	
+	.experience-content h3 {
+		margin: 0 0 0.5em 0;
+		color: #333;
+	}
+	
+	.experience-content h4 {
+		margin: 0 0 0.5em 0;
+		color: #666;
+		font-weight: normal;
+	}
+	
+	.experience-date {
+		font-style: italic;
+		color: #888;
+		margin-bottom: 1em;
+	}
+	
+	.experience-content ul {
+		list-style-type: disc;
+		padding-left: 1.5em;
+		margin-bottom: 0;
+	}
+	
+	.experience-content li {
+		margin-bottom: 0.5em;
+	}
+

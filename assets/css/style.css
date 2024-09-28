@@ -67,6 +67,17 @@ html {
   padding-left: 10px;
 }
 
+#stars {
+  animation: animStar 100s linear infinite;
+}
+
+#stars2 {
+  animation: animStar 200s linear infinite;
+}
+
+#stars3 {
+  animation: animStar 300s linear infinite;
+}
 
 @keyframes animStar {
   from {
