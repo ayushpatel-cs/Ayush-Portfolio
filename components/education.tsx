@@ -10,13 +10,13 @@ const education = [
     school: "Georgia Institute of Technology",
     degree: "Bachelor of Science in Computer Science",
     note: "Graduated in 2 years",
-    logo: "/logos/gatech.jpg",
+    logo: "/images/georgia_tech_logo.png",
   },
   {
     school: "Georgia Institute of Technology",
     degree: "Master of Science in Computer Science",
     note: "Dropped out",
-    logo: "/logos/gatech.jpg",
+    logo: "/images/georgia_tech_logo.png",
   },
 ]
 
