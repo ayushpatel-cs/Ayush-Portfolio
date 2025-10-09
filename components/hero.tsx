@@ -116,9 +116,9 @@ export function Hero() {
       <NeuralNetwork />
 
       <div className="max-w-7xl w-full relative z-10">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           {/* Left side - Text content */}
-          <div className="space-y-8">
+          <div className="space-y-8 order-2 md:order-1">
             <div className={`space-y-6 transition-all duration-1000 ${isVisible ? "animate-slide-up" : "opacity-0"}`}>
               <div className="space-y-4">
                 <p className="text-muted-foreground font-mono text-sm tracking-wider">AI Researcher</p>
@@ -198,14 +198,14 @@ export function Hero() {
 
           {/* Right side - Headshot */}
           <div
-            className={`flex justify-center md:justify-end transition-all duration-1000 delay-300 ${isVisible ? "animate-slide-up" : "opacity-0"}`}
+            className={`flex justify-center md:justify-end transition-all duration-1000 delay-300 order-1 md:order-2 ${isVisible ? "animate-slide-up" : "opacity-0"}`}
           >
             <div className="relative">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="./images/headshot.png"
                 alt="Professional headshot"
-                className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full border-2 border-border shadow-lg"
+                className="w-48 h-48 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full border-2 border-border shadow-lg"
               />
             </div>
           </div>

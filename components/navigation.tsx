@@ -62,7 +62,7 @@ export function Navigation() {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden pt-4 pb-2 space-y-3 animate-slide-down">
+          <div className="md:hidden pt-4 pb-2 space-y-3 animate-slide-down bg-background/95 backdrop-blur-lg rounded-lg mt-4 px-4 border border-border/50">
             {navItems.map((item) => (
               <a
                 key={item.href}
