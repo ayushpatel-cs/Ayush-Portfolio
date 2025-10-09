@@ -49,16 +49,16 @@ export function About() {
               }`}
             >
               <p className="text-xl md:text-2xl leading-relaxed text-foreground/90">
-                I'm a third-year <span className="text-accent font-semibold">Computer Science student</span> at Stanford
+                I&apos;m a third-year <span className="text-accent font-semibold">Computer Science student</span> at Stanford
                 University, specializing in Artificial Intelligence.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
                 Currently researching deep learning architectures at the{" "}
                 <span className="text-foreground font-medium">Stanford AI Lab</span>, focusing on transformer models and
-                their applications in computer vision. I'm also a teaching assistant for CS229: Machine Learning.
+                their applications in computer vision. I&apos;m also a teaching assistant for CS229: Machine Learning.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
-                When I'm not coding, you'll find me contributing to open-source AI projects, reading research papers, or
+                When I&apos;m not coding, you&apos;ll find me contributing to open-source AI projects, reading research papers, or
                 exploring the latest developments in generative AI.
               </p>
 

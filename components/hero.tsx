@@ -201,6 +201,7 @@ export function Hero() {
             className={`flex justify-center md:justify-end transition-all duration-1000 delay-300 ${isVisible ? "animate-slide-up" : "opacity-0"}`}
           >
             <div className="relative">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/professional-headshot.png"
                 alt="Professional headshot"

@@ -43,10 +43,10 @@ export function Contact() {
               isVisible ? "animate-slide-up" : "opacity-0"
             }`}
           >
-            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">Let's Connect</h2>
+            <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">Let&apos;s Connect</h2>
             <div className="w-32 h-1.5 bg-gradient-to-r from-accent via-chart-2 to-chart-3 mx-auto rounded-full"></div>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              I'm always open to discussing new projects, research opportunities, or collaborations in AI and machine
+              I&apos;m always open to discussing new projects, research opportunities, or collaborations in AI and machine
               learning.
             </p>
           </div>
