@@ -160,7 +160,7 @@ export function Hero() {
               }`}
             >
               <a
-                href="https://twitter.com/yourhandle"
+                href="https://x.com/ayushp__"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -169,7 +169,7 @@ export function Hero() {
                 <Twitter className="w-6 h-6" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/patel--ayush"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -178,7 +178,7 @@ export function Hero() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/ayushpatel-cs"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
