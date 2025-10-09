@@ -12,13 +12,13 @@ const experiences = [
     role: "Quantitative Trading Intern",
     logo: "./images/jane_street_logo.png",
     description: ["Rotated on Equities and Options trading desks"],
-    tags: ["Quantitative Trading", "Python", "Financial Markets"],
+    tags: ["Quantitative Trading", "Python", "Machine Learning"],
   },
   {
     company: "Meta",
     role: "Software Engineering Intern",
     logo: "./images/meta_logo.png",
-    description: ["Enhanced caching mechanisms for Facebook's CDN", "Developed real-time hotness tracking system"],
+    description: ["Enhanced caching mechanisms for Facebook's CDN"],
     tags: ["Distributed Systems", "C++", "CDN"],
   },
   {

@@ -66,10 +66,10 @@ export function Contact() {
               <div className="space-y-3">
                 <h3 className="font-bold text-xl">Email</h3>
                 <a
-                  href="mailto:alex.chen@stanford.edu"
+                  href="mailto:ayushpatel@gatech.edu"
                   className="text-muted-foreground hover:text-accent transition-colors block text-base"
                 >
-                  alex.chen@stanford.edu
+                  ayushpatel@gatech.edu
                 </a>
               </div>
             </Card>
@@ -124,7 +124,7 @@ export function Contact() {
               asChild
               className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-10 py-7 h-auto font-semibold"
             >
-              <a href="mailto:alex.chen@stanford.edu">Send me a message</a>
+              <a href="mailto:ayushpatel@gatech.edu">Send me a message</a>
             </Button>
           </div>
         </div>
@@ -133,7 +133,7 @@ export function Contact() {
       <footer className="max-w-7xl mx-auto pt-24 pb-8 relative z-10">
         <div className="border-t border-border/50 pt-8">
           <p className="text-center text-sm text-muted-foreground">
-            © 2025 Alex Chen. Built with Next.js and Tailwind CSS.
+            © 2025 Ayush Patel.
           </p>
         </div>
       </footer>

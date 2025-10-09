@@ -11,13 +11,13 @@ const projects = [
     title: "Crypto Trading Bot",
     description: "$2M volume, 58% win rate across 400 trades, 4bp avg profit per trade",
     tags: ["Python", "Trading", "Machine Learning"],
-    github: "https://github.com",
+    // github: "https://github.com",
   },
   {
     title: "GPT-2 from Scratch",
     description: "Built and pretrained GPT-2 model implementing transformer architecture and training pipeline",
     tags: ["PyTorch", "Transformers", "NLP"],
-    github: "https://github.com",
+    // github: "https://github.com",
   },
 ]
 
@@ -88,10 +88,10 @@ export function Projects() {
                     asChild
                     className="hover:bg-accent/10 hover:border-accent transition-all flex-1 bg-transparent"
                   >
-                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                    {/* <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="w-4 h-4 mr-2" />
                       Code
-                    </a>
+                    </a> */}
                   </Button>
                 </div>
               </Card>

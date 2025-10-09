@@ -19,8 +19,8 @@ export function Navigation() {
 
   const navItems = [
     { label: "Home", href: "#home" },
-    { label: "Education", href: "#education" },
     { label: "Experience", href: "#experience" },
+    { label: "Education", href: "#education" },
     { label: "Projects", href: "#projects" },
   ]
 
@@ -33,7 +33,7 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a href="#home" className="text-xl font-bold gradient-text">
-            Portfolio
+            
           </a>
 
           {/* Desktop Navigation */}

@@ -121,8 +121,8 @@ export function Hero() {
           <div className="space-y-8">
             <div className={`space-y-6 transition-all duration-1000 ${isVisible ? "animate-slide-up" : "opacity-0"}`}>
               <div className="space-y-4">
-                <p className="text-muted-foreground font-mono text-sm tracking-wider">Computer Science Student</p>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">Alex Chen</h1>
+                <p className="text-muted-foreground font-mono text-sm tracking-wider">AI Researcher</p>
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">Ayush Patel</h1>
               </div>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Building the future with <span className="text-foreground font-medium">Artificial Intelligence</span>{" "}
@@ -136,8 +136,8 @@ export function Hero() {
               }`}
             >
               <p className="text-muted-foreground leading-relaxed">
-                Quantitative trading intern at Jane Street, former SWE intern at Meta. Passionate about building
-                intelligent systems and trading strategies.
+                Passionate about building intelligent systems to solve real problems.
+                Former intern at Jane Street & Meta. 
               </p>
             </div>
 
@@ -160,13 +160,13 @@ export function Hero() {
               }`}
             >
               <a
-                href="https://github.com"
+                href="https://twitter.com/yourhandle"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
-                aria-label="GitHub"
+                aria-label="Twitter"
               >
-                <Github className="w-6 h-6" />
+                <Twitter className="w-6 h-6" />
               </a>
               <a
                 href="https://linkedin.com"
@@ -178,16 +178,16 @@ export function Hero() {
                 <Linkedin className="w-6 h-6" />
               </a>
               <a
-                href="https://twitter.com/yourhandle"
+                href="https://github.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
-                aria-label="Twitter"
+                aria-label="GitHub"
               >
-                <Twitter className="w-6 h-6" />
+                <Github className="w-6 h-6" />
               </a>
               <a
-                href="mailto:alex@example.com"
+                href="mailto:ayushpatel@gatech.edu"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >

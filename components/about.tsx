@@ -49,8 +49,7 @@ export function About() {
               }`}
             >
               <p className="text-xl md:text-2xl leading-relaxed text-foreground/90">
-                I&apos;m a third-year <span className="text-accent font-semibold">Computer Science student</span> at Stanford
-                University, specializing in Artificial Intelligence.
+                I&apos;m a <span className="text-accent font-semibold">Researcher</span> specializing in Artificial Intelligence.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground">
                 Currently researching deep learning architectures at the{" "}
