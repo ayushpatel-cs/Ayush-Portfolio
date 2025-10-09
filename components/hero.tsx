@@ -203,7 +203,7 @@ export function Hero() {
             <div className="relative">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/headshot.png"
+                src="./images/headshot.png"
                 alt="Professional headshot"
                 className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full border-2 border-border shadow-lg"
               />
