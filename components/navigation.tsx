@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Brain } from "lucide-react"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -32,8 +32,12 @@ export function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#home" className="text-xl font-bold gradient-text">
-            
+          <a href="#home" className="flex items-center gap-2 group">
+            <div className="relative">
+              <Brain className="w-8 h-8 text-primary transition-transform group-hover:scale-110" />
+              <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full group-hover:bg-primary/30 transition-colors" />
+            </div>
+            <span className="text-xl font-bold gradient-text hidden sm:inline">AP</span>
           </a>
 
           {/* Desktop Navigation */}
