@@ -21,7 +21,6 @@ export function Navigation() {
     { label: "Home", href: "#home" },
     { label: "Experience", href: "#experience" },
     { label: "Education", href: "#education" },
-    { label: "Projects", href: "#projects" },
   ]
 
   return (
@@ -30,23 +29,23 @@ export function Navigation() {
         isScrolled ? "bg-background/80 backdrop-blur-lg border-b border-border/50 shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 py-4">
+      <div className="max-w-7xl mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
-          <a href="#home" className="flex items-center gap-2 group">
+          <a href="#home" className="flex items-center gap-3 group">
             <div className="relative">
-              <Brain className="w-8 h-8 text-primary transition-transform group-hover:scale-110" />
+              <Brain className="w-10 h-10 text-primary transition-transform group-hover:scale-110" />
               <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full group-hover:bg-primary/30 transition-colors" />
             </div>
-            <span className="text-xl font-bold gradient-text hidden sm:inline">AP</span>
+            <span className="text-2xl font-bold gradient-text hidden sm:inline">AP</span>
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-10">
             {navItems.map((item) => (
               <a
                 key={item.href}
                 href={item.href}
-                className="text-muted-foreground hover:text-accent transition-colors font-medium"
+                className="text-muted-foreground hover:text-accent transition-colors font-medium text-lg"
               >
                 {item.label}
               </a>

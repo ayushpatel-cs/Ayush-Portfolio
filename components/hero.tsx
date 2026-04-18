@@ -118,44 +118,16 @@ export function Hero() {
       <div className="max-w-7xl w-full relative z-10">
         <div className="flex flex-col md:grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           {/* Left side - Text content */}
-          <div className="space-y-8 order-2 md:order-1">
-            <div className={`space-y-6 transition-all duration-1000 ${isVisible ? "animate-slide-up" : "opacity-0"}`}>
-              <div className="space-y-4">
-                <p className="text-muted-foreground font-mono text-sm tracking-wider">AI Researcher</p>
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">Ayush Patel</h1>
+          <div className="space-y-12 order-2 md:order-1">
+            <div className={`space-y-8 transition-all duration-1000 ${isVisible ? "animate-slide-up" : "opacity-0"}`}>
+              <div className="space-y-6">
+                <p className="text-muted-foreground font-mono text-lg tracking-wider">AI Researcher</p>
+                <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight">Ayush Patel</h1>
               </div>
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                Building the future with <span className="text-foreground font-medium">Artificial Intelligence</span>{" "}
-                and Machine Learning
-              </p>
             </div>
 
             <div
-              className={`space-y-4 transition-all duration-1000 delay-200 ${
-                isVisible ? "animate-slide-up" : "opacity-0"
-              }`}
-            >
-              <p className="text-muted-foreground leading-relaxed">
-                Passionate about building intelligent systems to solve real problems.
-                Former intern at Jane Street & Meta. 
-              </p>
-            </div>
-
-            <div
-              className={`flex flex-wrap gap-4 pt-4 transition-all duration-1000 delay-400 ${
-                isVisible ? "animate-slide-up" : "opacity-0"
-              }`}
-            >
-              <Button variant="default" size="lg" asChild>
-                <a href="#projects">View My Work</a>
-              </Button>
-              <Button variant="outline" size="lg" asChild>
-                <a href="#experience">Experience</a>
-              </Button>
-            </div>
-
-            <div
-              className={`flex gap-6 pt-6 transition-all duration-1000 delay-600 ${
+              className={`flex gap-8 pt-8 transition-all duration-1000 delay-600 ${
                 isVisible ? "animate-slide-up" : "opacity-0"
               }`}
             >
@@ -166,7 +138,7 @@ export function Hero() {
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Twitter"
               >
-                <Twitter className="w-6 h-6" />
+                <Twitter className="w-8 h-8" />
               </a>
               <a
                 href="https://linkedin.com/in/patel--ayush"
@@ -175,23 +147,14 @@ export function Hero() {
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="LinkedIn"
               >
-                <Linkedin className="w-6 h-6" />
-              </a>
-              <a
-                href="https://github.com/ayushpatel-cs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-                aria-label="GitHub"
-              >
-                <Github className="w-6 h-6" />
+                <Linkedin className="w-8 h-8" />
               </a>
               <a
                 href="mailto:ayushpatel@gatech.edu"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >
-                <Mail className="w-6 h-6" />
+                <Mail className="w-8 h-8" />
               </a>
             </div>
           </div>
@@ -205,7 +168,7 @@ export function Hero() {
               <img
                 src="./images/headshot.png"
                 alt="Professional headshot"
-                className="w-48 h-48 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full border-2 border-border shadow-lg"
+                className="w-64 h-64 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem] object-cover rounded-full border-2 border-border shadow-lg"
               />
             </div>
           </div>

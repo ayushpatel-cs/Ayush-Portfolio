@@ -9,9 +9,9 @@ import Image from "next/image"
 const experiences = [
   {
     company: "Jane Street",
-    role: "Quantitative Trading Intern",
+    role: "Trader",
     logo: "./images/jane_street_logo.png",
-    description: ["Rotated on Equities and Options trading desks"],
+    description: ["AI Research"],
     tags: ["Quantitative Trading", "Python", "Machine Learning"],
   },
   {
